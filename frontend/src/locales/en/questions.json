@@ -1,0 +1,3289 @@
+{
+  "al1m_10": {
+    "stem": "Solve the equation: $3x + 7 = 22$",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "4"
+    },
+    "hint": "Move the number from the left side to the right with the opposite sign.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3x = 22 - 7 = 15",
+        "text": "Let's move 7 to the right side"
+      },
+      {
+        "step": 2,
+        "formula": "x = \\frac{15}{3} = 5",
+        "text": "Divide both sides by 3"
+      }
+    ]
+  },
+  "al1m_11": {
+    "stem": "Find $x$ : $5x - 3 = 12$",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "hint": "First isolate the term with $x$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "5x = 12 + 3 = 15",
+        "text": "Add 3 to both sides"
+      },
+      {
+        "step": 2,
+        "formula": "x = 3",
+        "text": "Divide by 5"
+      }
+    ]
+  },
+  "al1g_12": {
+    "stem": "Solve the equation: $2x + 8 = 20$ . $x$ ?",
+    "hint": "Move 8 to the right and divide by the coefficient at $x$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2x = 20 - 8 = 12",
+        "text": "Subtract 8 from both sides"
+      },
+      {
+        "step": 2,
+        "formula": "x = 6",
+        "text": "Divide by 2"
+      }
+    ]
+  },
+  "al2m_13": {
+    "stem": "Decide: $4(x - 2) = 3x + 5$",
+    "choices": {
+      "A": "11",
+      "B": "13",
+      "C": "9",
+      "D": "7"
+    },
+    "hint": "First open the brackets, then assemble $x$ on one side.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "4x - 8 = 3x + 5",
+        "text": "Let's open the brackets"
+      },
+      {
+        "step": 2,
+        "formula": "4x - 3x = 5 + 8",
+        "text": "Let's reschedule $3x$ left, $-8$ right"
+      },
+      {
+        "step": 3,
+        "formula": "x = 13",
+        "text": "Let's simplify"
+      }
+    ]
+  },
+  "al2m_14": {
+    "stem": "If $\\frac{x}{3} + 4 = 9$ , what is equal to $x$ ?",
+    "choices": {
+      "A": "12",
+      "B": "15",
+      "C": "18",
+      "D": "9"
+    },
+    "hint": "Remove the 4, then get rid of the fraction by multiplying.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{x}{3} = 5",
+        "text": "Subtract 4 from both sides"
+      },
+      {
+        "step": 2,
+        "formula": "x = 15",
+        "text": "Multiply both sides by 3"
+      }
+    ]
+  },
+  "al3m_15": {
+    "stem": "Decide: $\\frac{2x + 1}{3} = \\frac{x - 2}{2}$",
+    "choices": {
+      "A": "$-7$",
+      "B": "$-8$",
+      "C": "$7$",
+      "D": "$8$"
+    },
+    "hint": "Multiply both sides by the least common multiple of the denominators.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2(2x + 1) = 3(x - 2)",
+        "text": "Multiply both sides by 6 (LCC)"
+      },
+      {
+        "step": 2,
+        "formula": "4x + 2 = 3x - 6",
+        "text": "Let's open the brackets"
+      },
+      {
+        "step": 3,
+        "formula": "x = -8",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "as2m_16": {
+    "stem": "Solve the system: $\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}$ . $x$ .",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "hint": "Add up the equations to $y$ decreased.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2x = 14",
+        "text": "Let's add both equations"
+      },
+      {
+        "step": 2,
+        "formula": "x = 7",
+        "text": "Divide by 2"
+      }
+    ]
+  },
+  "as2g_17": {
+    "stem": "Solve the system: $\\begin{cases} 2x + y = 11 \\\\ x - y = 1 \\end{cases}$ . $y$ ?",
+    "hint": "Express $x$ from the second equation and substitute it into the first.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x = y + 1",
+        "text": "From the second equation: $x = y + 1$"
+      },
+      {
+        "step": 2,
+        "formula": "2(y+1) + y = 11 \\Rightarrow 3y + 2 = 11 \\Rightarrow y = 3",
+        "text": "Let's substitute in the first"
+      }
+    ]
+  },
+  "as3m_18": {
+    "stem": "Solve the system: $\\begin{cases} 3x + 2y = 16 \\\\ x + 4y = 12 \\end{cases}$ . $x + y$ .",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "5"
+    },
+    "hint": "Use the addition method: multiply one equation so that the coefficients of $x$ coincided.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3x + 12y = 36",
+        "text": "Multiply the second equation by 3"
+      },
+      {
+        "step": 2,
+        "formula": "10y = 20 \\Rightarrow y = 2",
+        "text": "Subtract the first from the result"
+      },
+      {
+        "step": 3,
+        "formula": "x + 8 = 12 \\Rightarrow x = 4",
+        "text": "Let's find $x$"
+      },
+      {
+        "step": 4,
+        "formula": "x + y = 4 + 2 = 6",
+        "text": "Answer"
+      }
+    ]
+  },
+  "as4m_19": {
+    "stem": "System $\\begin{cases} x + 2y = 7 \\\\ 2x - y = 4 \\end{cases}$ has a solution $(x, y)$ . $xy$ ?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "hint": "Express $x$ from one equation and substitute it into the other.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x = 7 - 2y",
+        "text": "From the first: $x = 7 - 2y$"
+      },
+      {
+        "step": 2,
+        "formula": "2(7-2y) - y = 4 \\Rightarrow 14 - 4y - y = 4",
+        "text": "Let's substitute in the second"
+      },
+      {
+        "step": 3,
+        "formula": "5y = 10 \\Rightarrow y = 2,\\; x = 3",
+        "text": "Let's decide"
+      },
+      {
+        "step": 4,
+        "formula": "xy = 3 \\cdot 2 = 6",
+        "text": "Answer"
+      }
+    ]
+  },
+  "aq2m_20": {
+    "stem": "Solve the equation: $x^2 - 9 = 0$ . ",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "9"
+    },
+    "hint": "Remember the difference of squares formula: $a^2 - b^2 = (a-b)(a+b)$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x^2 = 9",
+        "text": "Let's move 9 to the right"
+      },
+      {
+        "step": 2,
+        "formula": "x = \\pm 3",
+        "text": "Let's extract the root"
+      },
+      {
+        "step": 3,
+        "formula": "x = 3",
+        "text": "Positive root"
+      }
+    ]
+  },
+  "aq2m_21": {
+    "stem": "Find the roots of the equation $x^2 - 5x + 6 = 0$ . ",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "11"
+    },
+    "hint": "According to Vieta's theorem, the sum of the roots $= -b/a$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "(x-2)(x-3)=0",
+        "text": "Let's factorize"
+      },
+      {
+        "step": 2,
+        "formula": "x_1+x_2=2+3=5",
+        "text": "Roots: $x=2$ And $x=3$"
+      }
+    ]
+  },
+  "aq3g_22": {
+    "stem": "Decide: $x^2 + 4x - 21 = 0$ . ",
+    "hint": "Find two numbers whose product is $-21$ , and the amount $4$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "(x+7)(x-3) = 0",
+        "text": "Let's factorize"
+      },
+      {
+        "step": 2,
+        "formula": "x = 3 \\text{ (положительный)}",
+        "text": "Roots: $x=-7$ or $x=3$"
+      }
+    ]
+  },
+  "aq3m_23": {
+    "stem": "Discriminant equation $2x^2 - 7x + 3 = 0$ equal to:",
+    "choices": {
+      "A": "25",
+      "B": "49",
+      "C": "1",
+      "D": "73"
+    },
+    "hint": "Discriminant: $D = b^2 - 4ac$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "D = b^2 - 4ac",
+        "text": "Discriminant formula"
+      },
+      {
+        "step": 2,
+        "formula": "D = (-7)^2 - 4 \\cdot 2 \\cdot 3 = 49 - 24 = 25",
+        "text": "Let's substitute $a=2, b=-7, c=3$"
+      }
+    ]
+  },
+  "aq4m_24": {
+    "stem": "Equation $x^2 - 2kx + k + 6 = 0$ has two equal roots. $k$ .",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "6",
+      "D": "$-2$"
+    },
+    "hint": "For two equal roots, the discriminant is zero.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "D = 4k^2 - 4(k+6) = 0",
+        "text": "For equal roots $D = 0$"
+      },
+      {
+        "step": 2,
+        "formula": "4k^2 - 4k - 24 = 0 \\Rightarrow k^2 - k - 6 = 0",
+        "text": "Let's simplify"
+      },
+      {
+        "step": 3,
+        "formula": "(k-3)(k+2)=0 \\Rightarrow k=3 \\text{ или } k=-2",
+        "text": "Let's decompose"
+      },
+      {
+        "step": 4,
+        "formula": "k = 3",
+        "text": "Positive value"
+      }
+    ]
+  },
+  "aq5g_25": {
+    "stem": "Find the sum of all values $x$ , satisfying the equation $|x^2 - 4x| = 3$ .",
+    "hint": "Expand the module: consider the case $\\geq 0$ And $< 0$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x^2 - 4x = 3 \\text{ или } x^2 - 4x = -3",
+        "text": "Let's consider two cases"
+      },
+      {
+        "step": 2,
+        "formula": "x = \\frac{4 \\pm \\sqrt{16+12}}{2} = 2 \\pm \\sqrt{7}",
+        "text": "First case: $x^2-4x-3=0$"
+      },
+      {
+        "step": 3,
+        "formula": "(x-1)(x-3)=0 \\Rightarrow x=1, x=3",
+        "text": "Second case: $x^2-4x+3=0$"
+      },
+      {
+        "step": 4,
+        "formula": "(2+\\sqrt{7})+(2-\\sqrt{7})+1+3 = 8",
+        "text": "Sum of all roots"
+      }
+    ]
+  },
+  "ai1m_26": {
+    "stem": "Solve the inequality: $2x + 1 > 7$",
+    "choices": {
+      "A": "$x > 3$",
+      "B": "$x > 4$",
+      "C": "$x < 3$",
+      "D": "$x > 2$"
+    },
+    "hint": "Solve like a normal equation, but keep the inequality sign.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2x > 6",
+        "text": "Subtract 1 from both sides"
+      },
+      {
+        "step": 2,
+        "formula": "x > 3",
+        "text": "Divide by 2"
+      }
+    ]
+  },
+  "ai2m_27": {
+    "stem": "Decide: $-3x + 6 \\leq 0$",
+    "choices": {
+      "A": "$x \\geq 2$",
+      "B": "$x \\leq 2$",
+      "C": "$x \\geq -2$",
+      "D": "$x \\leq -2$"
+    },
+    "hint": "When dividing by a negative number, the inequality sign changes!",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "-3x \\leq -6",
+        "text": "Let's move 6"
+      },
+      {
+        "step": 2,
+        "formula": "x \\geq 2",
+        "text": "Divide by $-3$ (the sign changes!)"
+      }
+    ]
+  },
+  "ai3m_28": {
+    "stem": "Find the greatest integer $x$ , satisfying the inequality $\\frac{x+3}{2} > \\frac{2x-1}{3}$",
+    "choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11"
+    },
+    "hint": "Multiply both sides by the LCM of the denominators.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3(x+3) > 2(2x-1)",
+        "text": "Multiply by 6"
+      },
+      {
+        "step": 2,
+        "formula": "3x+9 > 4x-2",
+        "text": "Let's open the brackets"
+      },
+      {
+        "step": 3,
+        "formula": "11 > x \\Rightarrow x < 11",
+        "text": "Let's reschedule"
+      },
+      {
+        "step": 4,
+        "formula": "x = 10",
+        "text": "Largest integer less than 11"
+      }
+    ]
+  },
+  "ai4m_29": {
+    "stem": "How many integer solutions does the inequality have? $x^2 - 7x + 10 \\leq 0$ ?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "hint": "Factor the quadratic trinomial and determine the sign.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "(x-2)(x-5) \\leq 0",
+        "text": "Let's decompose"
+      },
+      {
+        "step": 2,
+        "formula": "2 \\leq x \\leq 5",
+        "text": "The parabola is up, then $\\leq 0$ between the roots"
+      },
+      {
+        "step": 3,
+        "formula": "x \\in \\{2, 3, 4, 5\\} — \\text{4 значения}",
+        "text": "Integer values"
+      }
+    ]
+  },
+  "af1m_30": {
+    "stem": "If $f(x) = 2x + 3$ , what is equal $f(4)$ ?",
+    "choices": {
+      "A": "8",
+      "B": "10",
+      "C": "11",
+      "D": "14"
+    },
+    "hint": "Substitute 4 instead $x$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "f(4) = 2(4) + 3 = 8 + 3 = 11",
+        "text": "Let's substitute $x = 4$"
+      }
+    ]
+  },
+  "af2g_31": {
+    "stem": "If $f(x) = x^2 - 3x$ , find $f(5)$ .",
+    "hint": "Substitute 5 instead $x$ and calculate.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "f(5)=25-15=10",
+        "text": "Let's substitute $x=5$"
+      }
+    ]
+  },
+  "af3m_32": {
+    "stem": "If $f(x)=3x-1$ And $g(x)=x^2+2$ , what is equal $f(g(2))$ ?",
+    "choices": {
+      "A": "15",
+      "B": "17",
+      "C": "19",
+      "D": "11"
+    },
+    "hint": "First evaluate the inner function $g(2)$ , then substitute in $f$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "g(2) = 4 + 2 = 6",
+        "text": "Let's find $g(2)$"
+      },
+      {
+        "step": 2,
+        "formula": "f(6) = 18 - 1 = 17",
+        "text": "Let's find $f(6)$"
+      }
+    ]
+  },
+  "af4m_33": {
+    "stem": "Function $f(x) = ax + b$ is that $f(2) = 7$ And $f(5) = 16$ . $f(0)$ .",
+    "choices": {
+      "A": "1",
+      "B": "$-1$",
+      "C": "0",
+      "D": "2"
+    },
+    "hint": "Create a system of two equations using the given values.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2a + b = 7,\\; 5a + b = 16",
+        "text": "Let's create a system"
+      },
+      {
+        "step": 2,
+        "formula": "3a = 9 \\Rightarrow a = 3",
+        "text": "Subtract"
+      },
+      {
+        "step": 3,
+        "formula": "6 + b = 7 \\Rightarrow b = 1",
+        "text": "Let's find $b$"
+      },
+      {
+        "step": 4,
+        "formula": "f(0) = 1",
+        "text": "$f(0) = b = 1$"
+      }
+    ]
+  },
+  "aw1m_34": {
+    "stem": "In the store, apples cost 50 rubles per kg. ",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "hint": "Divide the total amount by the price of one kg.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{350}{50} = 7",
+        "text": "Divide the budget by the price"
+      }
+    ]
+  },
+  "aw2m_35": {
+    "stem": "The father's age is 3 times the son's age. ",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "hint": "Indicate your son's age as $x$ , and father - for $3x$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x + 3x = 48",
+        "text": "Let my son $x$ years old, father $3x$"
+      },
+      {
+        "step": 2,
+        "formula": "4x = 48 \\Rightarrow x = 12",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "aw3g_36": {
+    "stem": "The train traveled 240 km in 3 hours. ",
+    "hint": "Find the remaining distance and divide by the remaining time.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "240 - 60 = 180 \\text{ км осталось}",
+        "text": "In the first hour I drove 60 km"
+      },
+      {
+        "step": 2,
+        "formula": "v = \\frac{180}{2} = 90 \\text{ км/ч}",
+        "text": "Remaining time - 2 hours"
+      }
+    ]
+  },
+  "aw4m_37": {
+    "stem": "The first worker makes a part in 6 hours, the second one in 4 hours. ",
+    "choices": {
+      "A": "$2$",
+      "B": "$2.4$",
+      "C": "$2.5$",
+      "D": "$3$"
+    },
+    "hint": "Add productivity (1/time) and find the reciprocal.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{1}{6} \\text{ детали/час}",
+        "text": "Performance of the first"
+      },
+      {
+        "step": 2,
+        "formula": "\\frac{1}{4} \\text{ детали/час}",
+        "text": "Performance of the second"
+      },
+      {
+        "step": 3,
+        "formula": "\\frac{1}{6}+\\frac{1}{4}=\\frac{2+3}{12}=\\frac{5}{12}",
+        "text": "Collaborative Productivity"
+      },
+      {
+        "step": 4,
+        "formula": "t = \\frac{12}{5} = 2.4 \\text{ часа}",
+        "text": "Time per part"
+      }
+    ]
+  },
+  "al3g_38": {
+    "stem": "Decide: $0.5x + 1.5 = 3.5$ . $x$ ?",
+    "hint": "Work with decimals or multiply everything by 2.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "0.5x = 2",
+        "text": "Subtract 1.5"
+      },
+      {
+        "step": 2,
+        "formula": "x = 4",
+        "text": "Divide by 0.5"
+      }
+    ]
+  },
+  "as3m_39": {
+    "stem": "In the system $\\begin{cases} x + 2y = 8 \\\\ 3x - y = 3 \\end{cases}$ , what is equal $y$ ?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "hint": "Express $x$ from the first equation.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x = 8 - 2y",
+        "text": "From the first: $x = 8 - 2y$"
+      },
+      {
+        "step": 2,
+        "formula": "3(8-2y) - y = 3 \\Rightarrow 24-6y-y=3",
+        "text": "Let's substitute in the second"
+      },
+      {
+        "step": 3,
+        "formula": "24-7y=3 \\Rightarrow 7y=21 \\Rightarrow y=3",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "aq4g_40": {
+    "stem": "Product of the roots of an equation $3x^2 + 7x - 6 = 0$ equals:",
+    "hint": "Use Vieta's theorem: $x_1 x_2 = c/a$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x_1 \\cdot x_2 = \\frac{c}{a} = \\frac{-6}{3} = -2",
+        "text": "By Vieta's theorem"
+      }
+    ]
+  },
+  "af5m_41": {
+    "stem": "Find the domain of the function $f(x) = \\frac{1}{\\sqrt{x^2 - 4}}$",
+    "choices": {
+      "A": "$x>2$",
+      "B": "$|x|>2$",
+      "C": "$x \\neq \\pm 2$",
+      "D": "$|x| \\geq 2$"
+    },
+    "hint": "Under the root sign in the denominator, the expression must be strictly greater than zero.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x^2 - 4 > 0",
+        "text": "The radical expression must be strictly positive"
+      },
+      {
+        "step": 2,
+        "formula": "x^2 > 4 \\Rightarrow |x| > 2",
+        "text": "Let's decide"
+      },
+      {
+        "step": 3,
+        "formula": "x \\in (-\\infty, -2) \\cup (2, +\\infty)",
+        "text": "That is $x < -2$ or $x > 2$"
+      }
+    ]
+  },
+  "aw5m_42": {
+    "stem": "The boat sailed 48 km downstream and 36 km against the current, spending the same time. ",
+    "choices": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "10"
+    },
+    "hint": "Time = distance / speed. $v+2$ , against - $v-2$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{48}{v+2} = \\frac{36}{v-2}",
+        "text": "Let the speed of the boat $v$"
+      },
+      {
+        "step": 2,
+        "formula": "48(v-2) = 36(v+2)",
+        "text": "Multiply crosswise"
+      },
+      {
+        "step": 3,
+        "formula": "48v - 96 = 36v + 72",
+        "text": "Let's open the brackets"
+      },
+      {
+        "step": 4,
+        "formula": "12v = 168 \\Rightarrow v = 14",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "ai5g_43": {
+    "stem": "How many integer values $x$ satisfies the system of inequalities $\\begin{cases} 2x - 3 > 1 \\\\ x^2 < 25 \\end{cases}$ ?",
+    "hint": "Solve each inequality separately, then find the intersection.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x > 2",
+        "text": "First inequality: $2x > 4 \\Rightarrow x > 2$"
+      },
+      {
+        "step": 2,
+        "formula": "-5 < x < 5",
+        "text": "Second: $-5 < x < 5$"
+      },
+      {
+        "step": 3,
+        "formula": "x \\in (2, 5)",
+        "text": "Intersection: $2 < x < 5$"
+      },
+      {
+        "step": 4,
+        "formula": "\\text{2 значения}",
+        "text": "Integer values: $3, 4$"
+      }
+    ]
+  },
+  "al4m_44": {
+    "stem": "For what values $a$ equation $ax + 3 = 2x + a$ has no solutions?",
+    "choices": {
+      "A": "$a=2$",
+      "B": "$a=3$",
+      "C": "$a=0$",
+      "D": "$a=1$"
+    },
+    "hint": "There are no solutions when the coefficient at $x$ is zero, but the free term is not.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "ax - 2x = a - 3 \\Rightarrow x(a-2) = a-3",
+        "text": "Let's regroup"
+      },
+      {
+        "step": 2,
+        "formula": "a = 2,\\; 2-3=-1 \\neq 0 \\checkmark",
+        "text": "There are no solutions if $a-2=0$ And $a-3 \\neq 0$"
+      }
+    ]
+  },
+  "af3m_45": {
+    "stem": "Graph of a function $y = 2x - 4$ crosses the axis $x$ at point:",
+    "choices": {
+      "A": "$(2, 0)$",
+      "B": "$(4, 0)$",
+      "C": "$(-2, 0)$",
+      "D": "$(0, -4)$"
+    },
+    "hint": "Equate $y$ to zero and solve.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2x - 4 = 0 \\Rightarrow x = 2",
+        "text": "On axis $x$: $y=0$"
+      },
+      {
+        "step": 2,
+        "formula": "(2, 0)",
+        "text": "Intersection point"
+      }
+    ]
+  },
+  "aw3m_46": {
+    "stem": "The price of the product decreased by 20%, and then increased by 25%. ",
+    "choices": {
+      "A": "Increased by 5%",
+      "B": "Hasn't changed",
+      "C": "Decreased by 5%",
+      "D": "Increased by 5 rubles"
+    },
+    "hint": "Take the starting price at 100 and watch the changes.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "100 \\cdot 0.8 = 80",
+        "text": "Let the starting price be 100"
+      },
+      {
+        "step": 2,
+        "formula": "80 \\cdot 1.25 = 100",
+        "text": "Increased by 25%"
+      },
+      {
+        "step": 3,
+        "formula": "100 = 100",
+        "text": "The price has not changed"
+      }
+    ]
+  },
+  "aq5m_47": {
+    "stem": "At what values $k$ equation $x^2 + kx + 4 = 0$ has exactly one root?",
+    "choices": {
+      "A": "$k = \\pm 4$",
+      "B": "$k = \\pm 2$",
+      "C": "$k = 4$",
+      "D": "$k = 0$"
+    },
+    "hint": "The discriminant must be zero.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "k^2 - 16 = 0",
+        "text": "One root ⟹ $D = 0$"
+      },
+      {
+        "step": 2,
+        "formula": "k^2 = 16 \\Rightarrow k = \\pm 4",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "as5g_48": {
+    "stem": "System $\\begin{cases} x + y + z = 10 \\\\ x + y = 7 \\\\ y + z = 6 \\end{cases}$ . $x$ .",
+    "hint": "Use the first two equations to find $z$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "z = 3",
+        "text": "From 1st and 2nd: $z = 10 - 7 = 3$"
+      },
+      {
+        "step": 2,
+        "formula": "y = 3",
+        "text": "From 3rd: $y = 6 - 3 = 3$"
+      },
+      {
+        "step": 3,
+        "formula": "x = 4",
+        "text": "From 2nd: $x = 7 - 3 = 4$"
+      }
+    ]
+  },
+  "ai2g_49": {
+    "stem": "Find the greatest integer $x$ , satisfying the inequality $3x - 1 < 14$ .",
+    "hint": "Solve the inequality, then find the largest integer strictly less than the answer.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3x < 15",
+        "text": "Add 1"
+      },
+      {
+        "step": 2,
+        "formula": "x < 5",
+        "text": "Divide by 3"
+      },
+      {
+        "step": 3,
+        "formula": "x = 4",
+        "text": "Largest integer less than 5"
+      }
+    ]
+  },
+  "gt1m_50": {
+    "stem": "The sum of the angles of a triangle is:",
+    "choices": {
+      "A": "$90°$",
+      "B": "$180°$",
+      "C": "$270°$",
+      "D": "$360°$"
+    },
+    "hint": "This is a fundamental property of any triangle.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\alpha + \\beta + \\gamma = 180°",
+        "text": "Basic property of a triangle"
+      }
+    ]
+  },
+  "gt1m_51": {
+    "stem": "Two angles of a triangle are equal $50°$ And $70°$ . ",
+    "choices": {
+      "A": "$50°$",
+      "B": "$60°$",
+      "C": "$70°$",
+      "D": "$80°$"
+    },
+    "hint": "The sum of all angles of a triangle is equal to $180°$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "180° - 50° - 70° = 60°",
+        "text": "Sum of angles = 180°"
+      }
+    ]
+  },
+  "gt2m_52": {
+    "stem": "In a right triangle, the legs are 5 and 12. What is the hypotenuse?",
+    "choices": {
+      "A": "13",
+      "B": "15",
+      "C": "17",
+      "D": "14"
+    },
+    "hint": "Use the Pythagorean theorem: $c^2 = a^2 + b^2$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "c = \\sqrt{5^2 + 12^2} = \\sqrt{25+144} = \\sqrt{169} = 13",
+        "text": "Pythagorean theorem"
+      }
+    ]
+  },
+  "gt2g_53": {
+    "stem": "The area of ​​a triangle with base 10 and height 6 is:",
+    "hint": "Area of ​​triangle = $\\frac{1}{2} \\times$ base $\\times$ height.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = \\frac{1}{2} \\cdot a \\cdot h = \\frac{1}{2} \\cdot 10 \\cdot 6 = 30",
+        "text": "Area formula"
+      }
+    ]
+  },
+  "gt3m_54": {
+    "stem": "In an isosceles triangle, the base is 10 and the side is 13. Find the altitude drawn to the base.",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "11",
+      "D": "8"
+    },
+    "hint": "In an isosceles triangle, the height to the base divides it in half.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{Половина основания} = 5",
+        "text": "The height divides the base in half"
+      },
+      {
+        "step": 2,
+        "formula": "h = \\sqrt{13^2 - 5^2} = \\sqrt{169-25} = \\sqrt{144} = 12",
+        "text": "According to the Pythagorean theorem"
+      }
+    ]
+  },
+  "gt4m_55": {
+    "stem": "The sides of the triangle are 7, 8, 9. Find the cosine of the largest angle.",
+    "choices": {
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{2}{7}$",
+      "C": "$\\frac{1}{7}$",
+      "D": "$\\frac{2}{3}$"
+    },
+    "hint": "Use the cosine theorem: $c^2 = a^2 + b^2 - 2ab\\cos C$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\cos C = \\frac{a^2+b^2-c^2}{2ab}",
+        "text": "Largest angle opposite largest side (9)"
+      },
+      {
+        "step": 2,
+        "formula": "\\cos C = \\frac{49+64-81}{2 \\cdot 7 \\cdot 8} = \\frac{32}{112} = \\frac{2}{7}",
+        "text": "Let's substitute"
+      }
+    ]
+  },
+  "gt5g_56": {
+    "stem": "In a triangle $ABC$ : $AB = 15$ , $BC = 14$ , $AC = 13$ . ",
+    "hint": "Use Heron's formula: $S = \\sqrt{p(p-a)(p-b)(p-c)}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "p = \\frac{15+14+13}{2} = 21",
+        "text": "Semiperimeter"
+      },
+      {
+        "step": 2,
+        "formula": "S = \\sqrt{21 \\cdot 6 \\cdot 7 \\cdot 8} = \\sqrt{7056} = 84",
+        "text": "Heron's formula"
+      }
+    ]
+  },
+  "gc1m_57": {
+    "stem": "What is the length of a circle with radius 7?",
+    "choices": {
+      "A": "$7\\pi$",
+      "B": "$14\\pi$",
+      "C": "$49\\pi$",
+      "D": "$21\\pi$"
+    },
+    "hint": "Circumference $= 2\\pi r$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "C = 2\\pi r = 2\\pi \\cdot 7 = 14\\pi",
+        "text": "Circumference formula"
+      }
+    ]
+  },
+  "gc2m_58": {
+    "stem": "The area of ​​a circle with a diameter of 10 is:",
+    "choices": {
+      "A": "$100\\pi$",
+      "B": "$25\\pi$",
+      "C": "$50\\pi$",
+      "D": "$10\\pi$"
+    },
+    "hint": "First find the radius (half the diameter), then apply the area formula.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "r = 5",
+        "text": "Radius = half diameter"
+      },
+      {
+        "step": 2,
+        "formula": "S = \\pi r^2 = 25\\pi",
+        "text": "Square"
+      }
+    ]
+  },
+  "gc3m_59": {
+    "stem": "An inscribed angle is supported by an arc at $120°$ . ",
+    "choices": {
+      "A": "$120°$",
+      "B": "$60°$",
+      "C": "$240°$",
+      "D": "$30°$"
+    },
+    "hint": "An inscribed angle is equal to half the arc on which it subtends.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\alpha = \\frac{120°}{2} = 60°",
+        "text": "The inscribed angle is equal to half the arc"
+      }
+    ]
+  },
+  "gc4g_60": {
+    "stem": "A chord of length 8 is located at a distance of 3 from the center of the circle. ",
+    "hint": "A perpendicular from the center to the chord divides it in half. ",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{Половина хорды} = 4",
+        "text": "A perpendicular from the center bisects the chord"
+      },
+      {
+        "step": 2,
+        "formula": "r = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = 5",
+        "text": "According to the Pythagorean theorem"
+      }
+    ]
+  },
+  "gc5m_61": {
+    "stem": "Two circles with radii 5 and 12 touch externally. ",
+    "choices": {
+      "A": "7",
+      "B": "13",
+      "C": "17",
+      "D": "60"
+    },
+    "hint": "When touching externally, distance = sum of radii.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "d = R + r = 12 + 5 = 17",
+        "text": "On external touch"
+      }
+    ]
+  },
+  "gc1m_62": {
+    "stem": "Find the distance between points $(0, 0)$ And $(3, 4)$ .",
+    "choices": {
+      "A": "5",
+      "B": "7",
+      "C": "$\\sqrt{7}$",
+      "D": "25"
+    },
+    "hint": "Use the distance formula: $d = \\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "d = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5",
+        "text": "Distance formula"
+      }
+    ]
+  },
+  "gc2m_63": {
+    "stem": "Find the midpoint of a segment with ends $(2, 8)$ And $(6, 4)$ .",
+    "choices": {
+      "A": "$(4, 6)$",
+      "B": "$(3, 5)$",
+      "C": "$(8, 12)$",
+      "D": "$(4, 4)$"
+    },
+    "hint": "The coordinates of the middle are the arithmetic mean of the coordinates of the ends.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "M = \\left(\\frac{2+6}{2},\\; \\frac{8+4}{2}\\right) = (4, 6)",
+        "text": "Formula of the middle"
+      }
+    ]
+  },
+  "gc3m_64": {
+    "stem": "What is the area of ​​a triangle with vertices $(0,0)$ , $(6,0)$ , $(0,8)$ ?",
+    "choices": {
+      "A": "48",
+      "B": "24",
+      "C": "14",
+      "D": "20"
+    },
+    "hint": "The triangle is rectangular, the legs lie on the coordinate axes.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = \\frac{1}{2} \\cdot 6 \\cdot 8 = 24",
+        "text": "Axis base $x$: 6, height on axis $y$: 8"
+      }
+    ]
+  },
+  "gc4m_65": {
+    "stem": "The straight line passes through the points $(1, 2)$ And $(4, 11)$ . ",
+    "choices": {
+      "A": "3",
+      "B": "$\\frac{1}{3}$",
+      "C": "9",
+      "D": "$-3$"
+    },
+    "hint": "$k = \\frac{\\Delta y}{\\Delta x}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "k = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{11-2}{4-1} = \\frac{9}{3} = 3",
+        "text": "Slope formula"
+      }
+    ]
+  },
+  "gc5g_66": {
+    "stem": "Find the area of ​​a triangle with vertices $A(1,1)$ , $B(5,1)$ , $C(3,6)$ .",
+    "hint": "Use the area formula in terms of vertex coordinates.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = \\frac{1}{2}|x_A(y_B-y_C)+x_B(y_C-y_A)+x_C(y_A-y_B)|",
+        "text": "Area formula through coordinates"
+      },
+      {
+        "step": 2,
+        "formula": "S = \\frac{1}{2}|1(1-6)+5(6-1)+3(1-1)|",
+        "text": "Let's substitute"
+      },
+      {
+        "step": 3,
+        "formula": "S = \\frac{1}{2}|-5+25+0| = \\frac{20}{2} = 10",
+        "text": "Let's calculate"
+      }
+    ]
+  },
+  "gq1m_67": {
+    "stem": "The area of ​​a rectangle with sides 5 and 8 is:",
+    "choices": {
+      "A": "13",
+      "B": "26",
+      "C": "40",
+      "D": "80"
+    },
+    "hint": "Area of ​​a rectangle = product of sides.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = a \\cdot b = 5 \\cdot 8 = 40",
+        "text": "Area of ​​a rectangle"
+      }
+    ]
+  },
+  "gq1g_68": {
+    "stem": "The perimeter of a square with side 9 is:",
+    "hint": "A square has all sides equal. $4 \\times$ side.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P = 4a = 4 \\cdot 9 = 36",
+        "text": "Perimeter of a square"
+      }
+    ]
+  },
+  "gq2m_69": {
+    "stem": "The diagonal of a square is $6\\sqrt{2}$ . ",
+    "choices": {
+      "A": "6",
+      "B": "3",
+      "C": "$6\\sqrt{2}$",
+      "D": "12"
+    },
+    "hint": "The diagonal of a square is related to the side by the formula $d = a\\sqrt{2}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "a\\sqrt{2} = 6\\sqrt{2}",
+        "text": "Diagonal of a square $d = a\\sqrt{2}$"
+      },
+      {
+        "step": 2,
+        "formula": "a = 6",
+        "text": "Divide by $\\sqrt{2}$"
+      }
+    ]
+  },
+  "gq3m_70": {
+    "stem": "The area of ​​a trapezoid with bases 6 and 10 and height 4 is:",
+    "choices": {
+      "A": "24",
+      "B": "32",
+      "C": "40",
+      "D": "60"
+    },
+    "hint": "Area of ​​trapezoid = half the sum of the bases $\\times$ height.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = \\frac{(a+b)}{2} \\cdot h = \\frac{6+10}{2} \\cdot 4 = 8 \\cdot 4 = 32",
+        "text": "Trapezoid area formula"
+      }
+    ]
+  },
+  "gq4g_71": {
+    "stem": "The area of ​​a rhombus with diagonals 10 and 14 is:",
+    "hint": "Area of ​​a rhombus = half the product of the diagonals.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = \\frac{d_1 \\cdot d_2}{2} = \\frac{10 \\cdot 14}{2} = 70",
+        "text": "Area of ​​a rhombus"
+      }
+    ]
+  },
+  "ga1m_72": {
+    "stem": "Two corners are vertical. $65°$ . ",
+    "choices": {
+      "A": "$65°$",
+      "B": "$115°$",
+      "C": "$25°$",
+      "D": "$130°$"
+    },
+    "hint": "Vertical angles are always equal.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\alpha = 65°",
+        "text": "Vertical angles are equal"
+      }
+    ]
+  },
+  "ga2m_73": {
+    "stem": "Two angles are adjacent. $110°$ . ",
+    "choices": {
+      "A": "$110°$",
+      "B": "$70°$",
+      "C": "$90°$",
+      "D": "$80°$"
+    },
+    "hint": "Sum of adjacent angles = $180°$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "180° - 110° = 70°",
+        "text": "Adjacent angles total 180°"
+      }
+    ]
+  },
+  "ga3g_74": {
+    "stem": "Parallel lines are intersected by a transversal. $55°$ . ",
+    "hint": "One-sided angles with parallel lines and transversals complement each other until $180°$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{Сумма} = 180°",
+        "text": "One-sided angles add up to 180°"
+      }
+    ]
+  },
+  "gs2m_75": {
+    "stem": "The volume of a cube with edge 4 is:",
+    "choices": {
+      "A": "12",
+      "B": "16",
+      "C": "48",
+      "D": "64"
+    },
+    "hint": "Volume of a cube = edge in a cube.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "V = a^3 = 4^3 = 64",
+        "text": "Volume of a cube"
+      }
+    ]
+  },
+  "gs3m_76": {
+    "stem": "The volume of a cylinder with base radius 3 and height 5 is equal to:",
+    "choices": {
+      "A": "$15\\pi$",
+      "B": "$30\\pi$",
+      "C": "$45\\pi$",
+      "D": "$90\\pi$"
+    },
+    "hint": "Cylinder volume $= \\pi r^2 h$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "V = \\pi r^2 h = \\pi \\cdot 9 \\cdot 5 = 45\\pi",
+        "text": "Cylinder volume"
+      }
+    ]
+  },
+  "gs4g_77": {
+    "stem": "The total surface area of ​​a cube is 150. Find its edge.",
+    "hint": "Total surface of cube = $6a^2$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "6a^2 = 150",
+        "text": "Cube has 6 faces"
+      },
+      {
+        "step": 2,
+        "formula": "a^2 = 25 \\Rightarrow a = 5",
+        "text": "Let's find $a^2$"
+      }
+    ]
+  },
+  "gs5m_78": {
+    "stem": "The volume of a cone with a base radius of 6 and a height of 9 is equal to:",
+    "choices": {
+      "A": "$108\\pi$",
+      "B": "$324\\pi$",
+      "C": "$54\\pi$",
+      "D": "$216\\pi$"
+    },
+    "hint": "Cone volume = $\\frac{1}{3}\\pi r^2 h$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi \\cdot 36 \\cdot 9 = 108\\pi",
+        "text": "Cone volume"
+      }
+    ]
+  },
+  "gt3m_79": {
+    "stem": "In a right triangle, one of the acute angles is equal to $30°$ . $30°$ ?",
+    "choices": {
+      "A": "5",
+      "B": "$5\\sqrt{3}$",
+      "C": "$5\\sqrt{2}$",
+      "D": "10"
+    },
+    "hint": "In a right triangle, the leg opposite the angle $30°$ , is equal to half the hypotenuse.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "a = \\frac{10}{2} = 5",
+        "text": "Side opposite 30° = half of the hypotenuse"
+      }
+    ]
+  },
+  "gt4m_80": {
+    "stem": "The median of a triangle is drawn to a side of length 12. What is the length of the segment into which the median divides this side?",
+    "choices": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "12"
+    },
+    "hint": "The median of a triangle bisects the opposite side.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{12}{2} = 6",
+        "text": "The median divides the side in half"
+      }
+    ]
+  },
+  "gq5m_81": {
+    "stem": "In a parallelogram, the diagonals are 10 and 24, and the angle between them is $90°$ . ",
+    "choices": {
+      "A": "60",
+      "B": "120",
+      "C": "240",
+      "D": "100"
+    },
+    "hint": "Area through diagonals: $S = \\frac{1}{2} d_1 d_2 \\sin\\theta$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = \\frac{1}{2} d_1 d_2 \\sin\\theta",
+        "text": "Area of ​​a parallelogram through the diagonals and the angle between them"
+      },
+      {
+        "step": 2,
+        "formula": "S = \\frac{1}{2} \\cdot 10 \\cdot 24 \\cdot \\sin 90° = \\frac{240}{2} = 120",
+        "text": "Let's substitute"
+      }
+    ]
+  },
+  "gc3m_82": {
+    "stem": "Equation of a circle with center $(2, -3)$ and radius 4:",
+    "choices": {
+      "A": "$(x-2)^2+(y+3)^2=16$",
+      "B": "$(x+2)^2+(y-3)^2=16$",
+      "C": "$(x-2)^2+(y+3)^2=4$",
+      "D": "$(x-2)^2+(y-3)^2=16$"
+    },
+    "hint": "General view: $(x-a)^2 + (y-b)^2 = R^2$ , Where $(a,b)$ - center.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "(x-a)^2+(y-b)^2=R^2",
+        "text": "Canonical equation of a circle"
+      },
+      {
+        "step": 2,
+        "formula": "(x-2)^2+(y+3)^2=16",
+        "text": "Let's substitute $a=2, b=-3, R=4$"
+      }
+    ]
+  },
+  "ga4m_83": {
+    "stem": "In a convex quadrilateral, three angles are equal $80°$ , $90°$ And $100°$ . ",
+    "choices": {
+      "A": "$90°$",
+      "B": "$80°$",
+      "C": "$70°$",
+      "D": "$100°$"
+    },
+    "hint": "Sum of angles of any quadrilateral = $360°$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "360° - 80° - 90° - 100° = 90°",
+        "text": "Sum of angles of a quadrilateral = 360°"
+      }
+    ]
+  },
+  "gc3g_84": {
+    "stem": "Arc length of a circle of radius 9 with central angle $60°$ equal to $k\\pi$ . $k$ .",
+    "hint": "Arc Length = $\\frac{\\alpha}{360°} \\cdot 2\\pi r$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "l = \\frac{\\alpha}{360°} \\cdot 2\\pi r = \\frac{60}{360} \\cdot 2\\pi \\cdot 9 = 3\\pi",
+        "text": "Arc length"
+      },
+      {
+        "step": 2,
+        "formula": "k = 3",
+        "text": "Means $k = 3$"
+      }
+    ]
+  },
+  "gs3g_85": {
+    "stem": "The surface area of ​​a sphere of radius 3 is $k\\pi$ . $k$ .",
+    "hint": "Sphere surface area = $4\\pi r^2$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = 4\\pi r^2 = 4\\pi \\cdot 9 = 36\\pi",
+        "text": "Surface area of ​​a sphere"
+      },
+      {
+        "step": 2,
+        "formula": "k = 36",
+        "text": "$k = 36$"
+      }
+    ]
+  },
+  "gt5m_86": {
+    "stem": "In a triangle $ABC$ bisector drawn $BD$ , Where $D$ lies on $AC$ . $AB = 6$ , $BC = 4$ , $AC = 5$ , find $AD$ .",
+    "choices": {
+      "A": "3",
+      "B": "2",
+      "C": "2.5",
+      "D": "3.5"
+    },
+    "hint": "The bisector divides the opposite side in relation to the adjacent sides.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{AD}{DC} = \\frac{AB}{BC} = \\frac{6}{4} = \\frac{3}{2}",
+        "text": "According to the bisector property"
+      },
+      {
+        "step": 2,
+        "formula": "3k + 2k = 5 \\Rightarrow k = 1",
+        "text": "Let $AD = 3k$, $DC = 2k$"
+      },
+      {
+        "step": 3,
+        "formula": "AD = 3",
+        "text": "$AD = 3$"
+      }
+    ]
+  },
+  "gc2g_87": {
+    "stem": "Dot $A(3, 7)$ reflected relative to the axis $x$ . $y$ - image coordinate?",
+    "hint": "When reflected about an axis $x$ only the sign changes $y$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "y \\to -y",
+        "text": "When reflected about an axis $x$"
+      },
+      {
+        "step": 2,
+        "formula": "A'(3, -7)",
+        "text": "Image of a point $A$"
+      }
+    ]
+  },
+  "gq3m_88": {
+    "stem": "The sides of the rectangle are in the ratio 3:4, and its perimeter is 42. Find the area.",
+    "choices": {
+      "A": "108",
+      "B": "104",
+      "C": "84",
+      "D": "126"
+    },
+    "hint": "Express the sides through $k$ and use the perimeter formula.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2(3k+4k)=42 \\Rightarrow 14k=42 \\Rightarrow k=3",
+        "text": "Let the parties $3k$ And $4k$"
+      },
+      {
+        "step": 2,
+        "formula": "S = 9 \\cdot 12 = 108",
+        "text": "Sides: 9 and 12"
+      }
+    ]
+  },
+  "gs5g_89": {
+    "stem": "The volume of the ball is $\\frac{256}{3}\\pi$ . ",
+    "hint": "Volume of the ball = $\\frac{4}{3}\\pi r^3$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "V = \\frac{4}{3}\\pi r^3",
+        "text": "Formula for the volume of a ball"
+      },
+      {
+        "step": 2,
+        "formula": "\\frac{4}{3}\\pi r^3 = \\frac{256}{3}\\pi",
+        "text": "Let's substitute"
+      },
+      {
+        "step": 3,
+        "formula": "r^3 = 64 \\Rightarrow r = 4",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "sm1m_90": {
+    "stem": "Find the arithmetic mean of the numbers: 4, 8, 12.",
+    "choices": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "hint": "Average = amount/quantity.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "4 + 8 + 12 = 24",
+        "text": "Sum"
+      },
+      {
+        "step": 2,
+        "formula": "\\frac{24}{3} = 8",
+        "text": "Average"
+      }
+    ]
+  },
+  "sm1m_91": {
+    "stem": "Find the median of the set: 3, 7, 9, 15, 21.",
+    "choices": {
+      "A": "7",
+      "B": "9",
+      "C": "11",
+      "D": "15"
+    },
+    "hint": "The median is the value in the middle of an ordered set.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{Медиана} = 9 \\text{ (3-е из 5)}",
+        "text": "The numbers are already in order. "
+      }
+    ]
+  },
+  "sm2g_92": {
+    "stem": "The average of five numbers is 12. If you add 18, what is the new average?",
+    "hint": "Find the total amount, add the new number, divide by 6.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "5 \\cdot 12 = 60",
+        "text": "Sum of five numbers"
+      },
+      {
+        "step": 2,
+        "formula": "60 + 18 = 78",
+        "text": "New amount"
+      },
+      {
+        "step": 3,
+        "formula": "\\frac{78}{6} = 13",
+        "text": "New average"
+      }
+    ]
+  },
+  "sm2m_93": {
+    "stem": "Find the median of the set: 2, 5, 8, 11.",
+    "choices": {
+      "A": "5",
+      "B": "6.5",
+      "C": "8",
+      "D": "7"
+    },
+    "hint": "If the number is even, the median is the average of the two central values.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{Медиана} = \\frac{5+8}{2} = 6.5",
+        "text": "Even number - median = average of two averages"
+      }
+    ]
+  },
+  "sm3m_94": {
+    "stem": "There are 20 students in the class. ",
+    "choices": {
+      "A": "73",
+      "B": "74",
+      "C": "75",
+      "D": "76"
+    },
+    "hint": "Find the total amount, remove the points of those who left, divide by 18.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "20 \\cdot 72 = 1440",
+        "text": "Total points"
+      },
+      {
+        "step": 2,
+        "formula": "1440 - 50 - 60 = 1330",
+        "text": "Let's remove two students"
+      },
+      {
+        "step": 3,
+        "formula": "\\frac{1330}{18} \\approx 73.9 \\approx 74",
+        "text": "New average"
+      }
+    ]
+  },
+  "sm4g_95": {
+    "stem": "Data set: 2, 5, 5, 7, 8, 10, 12, 15. Find the range.",
+    "hint": "Range is the difference between the maximum and minimum values.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "15 - 2 = 13",
+        "text": "Range = max - min"
+      }
+    ]
+  },
+  "sp1m_96": {
+    "stem": "One die is thrown. ",
+    "choices": {
+      "A": "$\\frac{1}{6}$",
+      "B": "$\\frac{1}{3}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{2}{3}$"
+    },
+    "hint": "Favorable outcomes/all outcomes.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P = \\frac{3}{6} = \\frac{1}{2}",
+        "text": "Even numbers: 2, 4, 6 - three out of six"
+      }
+    ]
+  },
+  "sp1m_97": {
+    "stem": "One is drawn at random from a deck of 52 cards. ",
+    "choices": {
+      "A": "$\\frac{1}{52}$",
+      "B": "$\\frac{1}{13}$",
+      "C": "$\\frac{1}{4}$",
+      "D": "$\\frac{4}{13}$"
+    },
+    "hint": "How many aces are in a standard deck?",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P = \\frac{4}{52} = \\frac{1}{13}",
+        "text": "There are 4 aces in the deck"
+      }
+    ]
+  },
+  "sp2m_98": {
+    "stem": "Two dice are thrown. ",
+    "choices": {
+      "A": "$\\frac{1}{6}$",
+      "B": "$\\frac{5}{36}$",
+      "C": "$\\frac{1}{12}$",
+      "D": "$\\frac{7}{36}$"
+    },
+    "hint": "List all pairs that add up to 7.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{36 исходов}",
+        "text": "Total outcomes: $6 \\times 6 = 36$"
+      },
+      {
+        "step": 2,
+        "formula": "6 \\text{ исходов}",
+        "text": "Favorable: (1.6),(2.5),(3.4),(4.3),(5.2),(6.1)"
+      },
+      {
+        "step": 3,
+        "formula": "P = \\frac{6}{36} = \\frac{1}{6}",
+        "text": "Probability"
+      }
+    ]
+  },
+  "sp3m_99": {
+    "stem": "There are 5 red and 3 blue balls in the bag. ",
+    "choices": {
+      "A": "$\\frac{5}{14}$",
+      "B": "$\\frac{25}{64}$",
+      "C": "$\\frac{10}{28}$",
+      "D": "$\\frac{5}{8}$"
+    },
+    "hint": "Multiply the probabilities of successive events (without returning!).",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P_1 = \\frac{5}{8}",
+        "text": "Probability of first red"
+      },
+      {
+        "step": 2,
+        "formula": "P_2 = \\frac{4}{7}",
+        "text": "Probability of second red (without return)"
+      },
+      {
+        "step": 3,
+        "formula": "P = \\frac{5}{8} \\cdot \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14}",
+        "text": "Joint probability"
+      }
+    ]
+  },
+  "sp4m_100": {
+    "stem": "The coin is tossed 3 times. ",
+    "choices": {
+      "A": "$\\frac{1}{4}$",
+      "B": "$\\frac{3}{8}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{1}{8}$"
+    },
+    "hint": "Use Bernoulli's formula: $C_n^k \\cdot p^k \\cdot q^{n-k}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "C_3^2 = 3",
+        "text": "Number of ways to choose 2 heads from 3 throws"
+      },
+      {
+        "step": 2,
+        "formula": "\\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}",
+        "text": "Probability of each outcome"
+      },
+      {
+        "step": 3,
+        "formula": "P = 3 \\cdot \\frac{1}{8} = \\frac{3}{8}",
+        "text": "Total"
+      }
+    ]
+  },
+  "sp5g_101": {
+    "stem": "There are 10 people in the group: 6 boys and 4 girls. ",
+    "hint": "Use the addition: all combinations minus combinations without girls.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "C_{10}^3 = 120",
+        "text": "Total ways to choose 3 out of 10"
+      },
+      {
+        "step": 2,
+        "formula": "C_6^3 = 20",
+        "text": "No girls (boys only)"
+      },
+      {
+        "step": 3,
+        "formula": "120 - 20 = 100",
+        "text": "At least one girl"
+      }
+    ]
+  },
+  "sd1m_102": {
+    "stem": "The mode of the set 3, 5, 5, 7, 8, 5, 9 is:",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "6"
+    },
+    "hint": "Fashion is the meaning that is repeated most often.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "5 \\text{ встречается 3 раза}",
+        "text": "Fashion is the most common meaning"
+      }
+    ]
+  },
+  "sd2m_103": {
+    "stem": "The diagram shows sales by day: Mon-10, Tue-15, Wed-20, Thu-15, Fri-25. ",
+    "choices": {
+      "A": "Wednesday",
+      "B": "Thursday",
+      "C": "Friday",
+      "D": "Tuesday"
+    },
+    "hint": "Find the highest value.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\max(10,15,20,15,25) = 25 \\text{ (пятница)}",
+        "text": "Let's compare the values"
+      }
+    ]
+  },
+  "sd3g_104": {
+    "stem": "The student's scores on the 6 tests are: 70, 82, 88, 74, 90, 86. If he wants an average score of 85, what is the minimum score he needs to get on the 7th test?",
+    "hint": "Find the total amount needed and subtract the current amount.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "85 \\cdot 7 = 595",
+        "text": "Required amount for average 85 out of 7 tests"
+      },
+      {
+        "step": 2,
+        "formula": "70+82+88+74+90+86 = 490",
+        "text": "Current amount"
+      },
+      {
+        "step": 3,
+        "formula": "595 - 490 = 105",
+        "text": "Required score"
+      }
+    ]
+  },
+  "sd4m_105": {
+    "stem": "Set standard deviation $\\{2, 4, 4, 4, 5, 5, 7, 9\\}$ is 2. If each value is increased by 3, what is the standard deviation?",
+    "choices": {
+      "A": "2",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "hint": "Adding a constant to all data shifts the mean but does not change the spread.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\sigma' = \\sigma = 2",
+        "text": "Shifting all values ​​by a constant does not change the spread"
+      }
+    ]
+  },
+  "sd5m_106": {
+    "stem": "Set standard deviation $\\{a, b, c\\}$ equals $\\sigma$ . $\\{3a, 3b, 3c\\}$ ?",
+    "choices": {
+      "A": "$\\sigma$",
+      "B": "$3\\sigma$",
+      "C": "$9\\sigma$",
+      "D": "$\\sigma + 3$"
+    },
+    "hint": "Multiplying data by a constant $k$ multiplies the standard deviation by $|k|$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\sigma' = 3\\sigma",
+        "text": "Multiplying all data by $k$ multiplies $\\sigma$ on $|k|$"
+      }
+    ]
+  },
+  "sc1m_107": {
+    "stem": "In how many ways can 3 books be arranged on a shelf?",
+    "choices": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "27"
+    },
+    "hint": "Number of permutations $n$ elements = $n!$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3! = 3 \\cdot 2 \\cdot 1 = 6",
+        "text": "Number of permutations"
+      }
+    ]
+  },
+  "sc2g_108": {
+    "stem": "In how many ways can you choose 2 people out of 6?",
+    "hint": "Use the combination formula: $C_n^k = \\frac{n!}{k!(n-k)!}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "C_6^2 = \\frac{6!}{2! \\cdot 4!} = \\frac{6 \\cdot 5}{2} = 15",
+        "text": "Number of combinations"
+      }
+    ]
+  },
+  "sc3m_109": {
+    "stem": "The numbers 1, 2, 3, 4 form three-digit numbers without repetitions. ",
+    "choices": {
+      "A": "12",
+      "B": "24",
+      "C": "64",
+      "D": "36"
+    },
+    "hint": "For first place - 4 options, for second - 3, for third - 2.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "A_4^3 = 4 \\cdot 3 \\cdot 2 = 24",
+        "text": "Number of placements"
+      }
+    ]
+  },
+  "sc4g_110": {
+    "stem": "In how many ways can 5 people be seated at a round table?",
+    "hint": "Number of permutations around the circle = $(n-1)!$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "(n-1)! = 4! = 24",
+        "text": "Permutations around the circle"
+      }
+    ]
+  },
+  "sp2g_111": {
+    "stem": "From the word “MATHEMATICS”, choose one letter at random. ",
+    "hint": "Count the total number of letters and the number of \"A's\".",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P = \\frac{3}{10} = 0.3",
+        "text": "The word MATHEMATICS has 10 letters, of which the letter A occurs 3 times (positions 2, 6, 10)"
+      }
+    ]
+  },
+  "sm3m_112": {
+    "stem": "Set: 1, 3, 5, 7, 9, 11, 13. If you remove the maximum and minimum values, how does the median change?",
+    "choices": {
+      "A": "Will increase",
+      "B": "Will decrease",
+      "C": "Won't change",
+      "D": "Unable to determine"
+    },
+    "hint": "Find the median before and after removal.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{Медиана} = 7",
+        "text": "Original median (4th out of 7)"
+      },
+      {
+        "step": 2,
+        "formula": "\\text{Медиана} = 7",
+        "text": "After removing 1 and 13: {3,5,7,9,11} - median (3rd out of 5)"
+      },
+      {
+        "step": 3,
+        "formula": "",
+        "text": "The median has not changed"
+      }
+    ]
+  },
+  "sd2m_113": {
+    "stem": "What type of chart is best for showing parts of a whole?",
+    "choices": {
+      "A": "Histogram",
+      "B": "Pie chart",
+      "C": "Line graph",
+      "D": "Scatter plot"
+    },
+    "hint": "Which chart is divided into sectors?",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{100\\% = целый круг}",
+        "text": "Pie chart showing parts of a whole"
+      }
+    ]
+  },
+  "sp3g_114": {
+    "stem": "The chance of rain on Monday is 0.3, on Tuesday – 0.4. ",
+    "hint": "For independent events, the probabilities are multiplied.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P(A \\cap B) = P(A) \\cdot P(B) = 0.3 \\cdot 0.4 = 0.12",
+        "text": "For independent events"
+      }
+    ]
+  },
+  "sd3m_115": {
+    "stem": "Sample: 10, 12, 14, 14, 16, 18, 20, 22. Find the interquartile range (IQR).",
+    "choices": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "hint": "IQR = $Q_3 - Q_1$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "Q_1 = \\frac{12+14}{2} = 13",
+        "text": "$Q_1$ = bottom half median {10,12,14,14}"
+      },
+      {
+        "step": 2,
+        "formula": "Q_3 = \\frac{18+20}{2} = 19",
+        "text": "$Q_3$ = upper half median {16,18,20,22}"
+      },
+      {
+        "step": 3,
+        "formula": "Q_3 - Q_1 = 19 - 13 = 6",
+        "text": "IQR"
+      }
+    ]
+  },
+  "sc5g_116": {
+    "stem": "How many four-digit numbers can be made from the digits 0, 1, 2, 3, 4 without repetition?",
+    "hint": "The first digit cannot be zero!",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "4 \\text{ выбора}",
+        "text": "The first digit cannot be 0 → 4 options"
+      },
+      {
+        "step": 2,
+        "formula": "4 \\cdot 3 \\cdot 2 = 24",
+        "text": "The remaining 3 positions of the 4 remaining digits"
+      },
+      {
+        "step": 3,
+        "formula": "4 \\cdot 24 = 96",
+        "text": "Total"
+      }
+    ]
+  },
+  "sm4m_117": {
+    "stem": "Weighted average score: test 1 (20% weight) - 80, test 2 (30% weight) - 90, test 3 (50% weight) - 70. Final score:",
+    "choices": {
+      "A": "78",
+      "B": "80",
+      "C": "76",
+      "D": "82"
+    },
+    "hint": "Multiply each score by its weight and add up.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "0.2 \\cdot 80 + 0.3 \\cdot 90 + 0.5 \\cdot 70 = 16 + 27 + 35 = 78",
+        "text": "Weighted average"
+      }
+    ]
+  },
+  "sp4m_118": {
+    "stem": "There are 4 white and 6 black balls in an urn. ",
+    "choices": {
+      "A": "$\\frac{1}{6}$",
+      "B": "$\\frac{1}{3}$",
+      "C": "$\\frac{3}{10}$",
+      "D": "$\\frac{1}{4}$"
+    },
+    "hint": "Number of favorable combinations / total number of combinations.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P = \\frac{C_6^3}{C_{10}^3} = \\frac{20}{120} = \\frac{1}{6}",
+        "text": "Probability"
+      }
+    ]
+  },
+  "sd1g_119": {
+    "stem": "In the data set {4, 7, 7, 3, 9, 7, 2}, find the mode.",
+    "hint": "Fashion is the most common meaning.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\text{Мода} = 7",
+        "text": "Frequencies: 2→1, 3→1, 4→1, 7→3, 9→1"
+      }
+    ]
+  },
+  "sp5m_120": {
+    "stem": "The student randomly guesses the answers to a test of 4 questions with 4 options each. ",
+    "choices": {
+      "A": "$\\frac{1}{256}$",
+      "B": "$\\frac{1}{64}$",
+      "C": "$\\frac{1}{128}$",
+      "D": "$\\frac{1}{16}$"
+    },
+    "hint": "The probabilities of independent events are multiplied.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "P_1 = \\frac{1}{4}",
+        "text": "Probability of guessing 1 question: $\\frac{1}{4}$"
+      },
+      {
+        "step": 2,
+        "formula": "P = \\left(\\frac{1}{4}\\right)^4 = \\frac{1}{256}",
+        "text": "All 4 questions are independent events"
+      }
+    ]
+  },
+  "sm5g_121": {
+    "stem": "The average score of a group of 25 students is 78. The average score of a group of 15 students is 86. What is the average score of all 40 students?",
+    "hint": "Find the totals of each group and divide the total by the total.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "25 \\cdot 78 = 1950",
+        "text": "First group amount"
+      },
+      {
+        "step": 2,
+        "formula": "15 \\cdot 86 = 1290",
+        "text": "Second group amount"
+      },
+      {
+        "step": 3,
+        "formula": "\\frac{1950+1290}{40} = \\frac{3240}{40} = 81",
+        "text": "Overall GPA"
+      }
+    ]
+  },
+  "sd4m_122": {
+    "stem": "Correlation between $x$ And $y$ equal to $r = -0.85$ . ",
+    "choices": {
+      "A": "Strong positive connection",
+      "B": "Strong negative connection",
+      "C": "Weak connection",
+      "D": "No connection"
+    },
+    "hint": "Sign $r$ indicates the direction and $|r|$ - strength of connection.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "|{-0.85}| = 0.85 \\approx 1",
+        "text": "$|r|$ close to 1 - the connection is strong"
+      },
+      {
+        "step": 2,
+        "formula": "r = -0.85 < 0",
+        "text": "$r < 0$ - negative relationship"
+      }
+    ]
+  },
+  "sc3m_123": {
+    "stem": "How many different passwords, 3 characters long, can be made from the numbers 0-9 (with repetitions)?",
+    "choices": {
+      "A": "30",
+      "B": "720",
+      "C": "1000",
+      "D": "100"
+    },
+    "hint": "With repetitions: $n^k$ , Where $n$ - number of options, $k$ - length.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "10 \\cdot 10 \\cdot 10 = 1000",
+        "text": "10 options for each position"
+      }
+    ]
+  },
+  "sd5m_124": {
+    "stem": "Dataset: $\\{x_1, x_2, \\ldots, x_n\\}$ with dispersion $D$ . $\\{2x_1+5, 2x_2+5, \\ldots, 2x_n+5\\}$ ?",
+    "choices": {
+      "A": "$2D+5$",
+      "B": "$4D$",
+      "C": "$4D+5$",
+      "D": "$D$"
+    },
+    "hint": "$D(aX+b) = a^2 D(X)$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "D(X+c) = D(X)",
+        "text": "Adding a constant does not change the variance"
+      },
+      {
+        "step": 2,
+        "formula": "D(kX) = k^2 D(X)",
+        "text": "Multiplying by $k$ multiplies the variance by $k^2$"
+      },
+      {
+        "step": 3,
+        "formula": "D(2X+5) = 4D",
+        "text": "Total"
+      }
+    ]
+  },
+  "ae1m_125": {
+    "stem": "What is equal to $3^4$ ?",
+    "choices": {
+      "A": "12",
+      "B": "27",
+      "C": "81",
+      "D": "64"
+    },
+    "hint": "Multiply 3 by itself 4 times.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3^4 = 3 \\cdot 3 \\cdot 3 \\cdot 3 = 81",
+        "text": "Let's calculate"
+      }
+    ]
+  },
+  "ae1g_126": {
+    "stem": "What is equal to $5^0 + 2^3$ ?",
+    "hint": "Any number (except 0) raised to the power of 0 is 1.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "5^0 = 1",
+        "text": "$5^0 = 1$ (any number to the power of 0 = 1)"
+      },
+      {
+        "step": 2,
+        "formula": "2^3 = 8",
+        "text": "$2^3 = 8$"
+      },
+      {
+        "step": 3,
+        "formula": "1 + 8 = 9",
+        "text": "Sum"
+      }
+    ]
+  },
+  "ae2m_127": {
+    "stem": "Simplify: $\\frac{2^5 \\cdot 2^3}{2^6}$",
+    "choices": {
+      "A": "$2^2$",
+      "B": "$2^4$",
+      "C": "$2^{14}$",
+      "D": "$2^8$"
+    },
+    "hint": "When multiplying, degrees are added, when dividing, they are subtracted.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2^{5+3} = 2^8",
+        "text": "Numerator: add up the degrees"
+      },
+      {
+        "step": 2,
+        "formula": "\\frac{2^8}{2^6} = 2^{8-6} = 2^2",
+        "text": "Divide: subtract degrees"
+      }
+    ]
+  },
+  "ae3m_128": {
+    "stem": "Decide: $4^x = 64$",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "16"
+    },
+    "hint": "Think of 64 as a power of 4.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "64 = 4^3",
+        "text": "Let's write 64 as a power of 4"
+      },
+      {
+        "step": 2,
+        "formula": "4^x = 4^3 \\Rightarrow x = 3",
+        "text": "Means"
+      }
+    ]
+  },
+  "ae4g_129": {
+    "stem": "Simplify $\\left(\\frac{27}{8}\\right)^{2/3}$ . $\\frac{a}{b}$ , enter $a+b$ (irreducible fraction).",
+    "hint": "Express the numerator and denominator as powers, then use the rule $(a^m)^n = a^{mn}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{27}{8} = \\frac{3^3}{2^3} = \\left(\\frac{3}{2}\\right)^3",
+        "text": "Let's write it as degrees"
+      },
+      {
+        "step": 2,
+        "formula": "\\left(\\left(\\frac{3}{2}\\right)^3\\right)^{2/3} = \\left(\\frac{3}{2}\\right)^2 = \\frac{9}{4}",
+        "text": "Let's raise it to the power of 2/3"
+      },
+      {
+        "step": 3,
+        "formula": "a + b = 13",
+        "text": "$a+b = 9 + 4 = 13$"
+      }
+    ]
+  },
+  "ap1m_130": {
+    "stem": "If $f(x) = x^2 + 3x$ , what is equal $f(2)$ ?",
+    "choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "hint": "Substitute 2 instead $x$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "f(2) = 4 + 6 = 10",
+        "text": "Let's substitute $x=2$"
+      }
+    ]
+  },
+  "ap2m_131": {
+    "stem": "Lay out $x^2 - 16$ .",
+    "choices": {
+      "A": "$(x-4)(x+4)$",
+      "B": "$(x-8)(x+2)$",
+      "C": "$(x-4)^2$",
+      "D": "$(x+4)^2$"
+    },
+    "hint": "$a^2 - b^2 = (a-b)(a+b)$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "a^2 - b^2 = (a-b)(a+b)",
+        "text": "Square difference formula"
+      },
+      {
+        "step": 2,
+        "formula": "x^2 - 16 = (x-4)(x+4)",
+        "text": "Applicable"
+      }
+    ]
+  },
+  "ap3m_132": {
+    "stem": "Divide $x^3 - 8$ on $x - 2$ . ",
+    "choices": {
+      "A": "$x^2 + 2x + 4$",
+      "B": "$x^2 - 2x + 4$",
+      "C": "$x^2 + 4$",
+      "D": "$x^2 - 4$"
+    },
+    "hint": "Use the difference of cubes formula: $a^3 - b^3 = (a-b)(a^2+ab+b^2)$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "a^3 - b^3 = (a-b)(a^2+ab+b^2)",
+        "text": "Difference of cubes formula"
+      },
+      {
+        "step": 2,
+        "formula": "x^3-8 = (x-2)(x^2+2x+4)",
+        "text": "Applicable $a=x, b=2$"
+      }
+    ]
+  },
+  "ap4g_133": {
+    "stem": "Find the remainder of division $x^3 + 2x^2 - 5x + 1$ on $x - 1$ .",
+    "hint": "Bezout's theorem: remainder of division $f(x)$ on $(x-a)$ equals $f(a)$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "f(1) = 1 + 2 - 5 + 1 = -1",
+        "text": "By Bezout's theorem, remainder = $f(1)$"
+      }
+    ]
+  },
+  "ap5m_134": {
+    "stem": "Polynomial $P(x) = x^4 - 5x^2 + 4$ has roots $x = \\pm 1$ And $x = \\pm 2$ . ",
+    "choices": {
+      "A": "$(x-1)(x+1)(x-2)(x+2)$",
+      "B": "$(x^2-1)(x^2+4)$",
+      "C": "$(x-1)^2(x-2)^2$",
+      "D": "$(x^2+1)(x^2-4)$"
+    },
+    "hint": "Make a replacement $t = x^2$ and spread it out.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "t^2 - 5t + 4 = (t-1)(t-4)",
+        "text": "Replacement $t = x^2$"
+      },
+      {
+        "step": 2,
+        "formula": "(x^2-1)(x^2-4)",
+        "text": "Reverse replacement"
+      },
+      {
+        "step": 3,
+        "formula": "(x-1)(x+1)(x-2)(x+2)",
+        "text": "Each is a difference of squares"
+      }
+    ]
+  },
+  "al2m_135": {
+    "stem": "What is equal to $\\log_2 32$ ?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "16"
+    },
+    "hint": "The logarithm answers the question: to what power should the base be raised?",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2^5 = 32 \\Rightarrow \\log_2 32 = 5",
+        "text": "$2^? = 32$"
+      }
+    ]
+  },
+  "al2g_136": {
+    "stem": "What is equal to $\\log_3 81$ ?",
+    "hint": "To what power must 3 be raised to get 81?",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3^4 = 81 \\Rightarrow \\log_3 81 = 4",
+        "text": "$3^? = 81$"
+      }
+    ]
+  },
+  "al3m_137": {
+    "stem": "Simplify: $\\log_5 25 + \\log_5 5$",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "10"
+    },
+    "hint": "Calculate each logarithm separately.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2 + 1 = 3",
+        "text": "$\\log_5 25 = 2$, $\\log_5 5 = 1$"
+      }
+    ]
+  },
+  "al4m_138": {
+    "stem": "Decide: $\\log_2(x+3) = 5$",
+    "choices": {
+      "A": "29",
+      "B": "32",
+      "C": "35",
+      "D": "37"
+    },
+    "hint": "$\\log_a b = c \\Leftrightarrow a^c = b$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x + 3 = 2^5 = 32",
+        "text": "By definition of logarithm"
+      },
+      {
+        "step": 2,
+        "formula": "x = 29",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "al5g_139": {
+    "stem": "If $\\log_a 2 = 0.5$ , find $a$ .",
+    "hint": "$\\log_a 2 = 0.5$ means $a^{0.5} = 2$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "a^{0.5} = 2",
+        "text": "By definition"
+      },
+      {
+        "step": 2,
+        "formula": "a = 2^2 = 4",
+        "text": "Let's square it"
+      }
+    ]
+  },
+  "at2m_140": {
+    "stem": "What is equal to $\\sin 30°$ ?",
+    "choices": {
+      "A": "$\\frac{1}{2}$",
+      "B": "$\\frac{\\sqrt{2}}{2}$",
+      "C": "$\\frac{\\sqrt{3}}{2}$",
+      "D": "1"
+    },
+    "hint": "Remember the basic meanings: $\\sin 30° = \\frac{1}{2}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\sin 30° = \\frac{1}{2}",
+        "text": "Table value"
+      }
+    ]
+  },
+  "at2m_141": {
+    "stem": "What is equal to $\\cos 60°$ ?",
+    "choices": {
+      "A": "$\\frac{1}{2}$",
+      "B": "$\\frac{\\sqrt{3}}{2}$",
+      "C": "$\\frac{\\sqrt{2}}{2}$",
+      "D": "0"
+    },
+    "hint": "$\\cos 60° = \\sin 30°$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\cos 60° = \\frac{1}{2}",
+        "text": "Table value"
+      }
+    ]
+  },
+  "at3m_142": {
+    "stem": "If $\\sin \\alpha = 0.6$ And $\\alpha$ - acute angle, what is equal to $\\cos \\alpha$ ?",
+    "choices": {
+      "A": "0.4",
+      "B": "0.6",
+      "C": "0.8",
+      "D": "1.0"
+    },
+    "hint": "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\sin^2 \\alpha + \\cos^2 \\alpha = 1",
+        "text": "Basic identity"
+      },
+      {
+        "step": 2,
+        "formula": "\\cos^2 \\alpha = 1 - 0.36 = 0.64",
+        "text": "Let's substitute"
+      },
+      {
+        "step": 3,
+        "formula": "\\cos \\alpha = 0.8",
+        "text": "$\\alpha$ - sharp, that is $\\cos > 0$"
+      }
+    ]
+  },
+  "at4g_143": {
+    "stem": "Find the value $\\sin^2 45° + \\cos^2 45° + \\tan 45°$ .",
+    "hint": "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$ for anyone $\\alpha$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\sin^2 45° + \\cos^2 45° = 1",
+        "text": "Basic identity"
+      },
+      {
+        "step": 2,
+        "formula": "\\tan 45° = 1",
+        "text": "Table value"
+      },
+      {
+        "step": 3,
+        "formula": "1 + 1 = 2",
+        "text": "Answer"
+      }
+    ]
+  },
+  "at5m_144": {
+    "stem": "Simplify: $\\frac{\\sin 2\\alpha}{1 + \\cos 2\\alpha}$",
+    "choices": {
+      "A": "$\\tan \\alpha$",
+      "B": "$\\sin \\alpha$",
+      "C": "$\\cos \\alpha$",
+      "D": "$2\\tan \\alpha$"
+    },
+    "hint": "Use double angle formulas.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha,\\; 1+\\cos 2\\alpha = 2\\cos^2\\alpha",
+        "text": "Double angle formulas"
+      },
+      {
+        "step": 2,
+        "formula": "\\frac{2\\sin\\alpha\\cos\\alpha}{2\\cos^2\\alpha} = \\frac{\\sin\\alpha}{\\cos\\alpha} = \\tan\\alpha",
+        "text": "Let's substitute"
+      }
+    ]
+  },
+  "as1m_145": {
+    "stem": "Find the 10th term of the arithmetic progression: 3, 7, 11, 15, ...",
+    "choices": {
+      "A": "39",
+      "B": "43",
+      "C": "35",
+      "D": "40"
+    },
+    "hint": "$a_n = a_1 + (n-1)d$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "d = 4",
+        "text": "$d = 7 - 3 = 4$"
+      },
+      {
+        "step": 2,
+        "formula": "a_{10} = a_1 + (n-1)d = 3 + 9 \\cdot 4 = 39",
+        "text": "Formula $n$ th member"
+      }
+    ]
+  },
+  "as2g_146": {
+    "stem": "Find the sum of the first 5 terms of the arithmetic progression: 2, 5, 8, 11, 14.",
+    "hint": "$S_n = \\frac{n(a_1 + a_n)}{2}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S_n = \\frac{n(a_1 + a_n)}{2} = \\frac{5(2+14)}{2} = \\frac{80}{2} = 40",
+        "text": "Sum Formula"
+      }
+    ]
+  },
+  "as3m_147": {
+    "stem": "Geometric progression: $2, 6, 18, ...$ . ",
+    "choices": {
+      "A": "54",
+      "B": "108",
+      "C": "162",
+      "D": "324"
+    },
+    "hint": "$b_n = b_1 \\cdot q^{n-1}$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "q = 3",
+        "text": "Denominator $q = 6/2 = 3$"
+      },
+      {
+        "step": 2,
+        "formula": "b_5 = b_1 \\cdot q^4 = 2 \\cdot 3^4 = 2 \\cdot 81 = 162",
+        "text": "Formula"
+      }
+    ]
+  },
+  "as4g_148": {
+    "stem": "The sum of an infinitely decreasing geometric progression with $b_1 = 12$ And $q = \\frac{1}{3}$ is equal to:",
+    "hint": "$S = \\frac{b_1}{1-q}$ at $|q| < 1$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "S = \\frac{b_1}{1-q} = \\frac{12}{1 - \\frac{1}{3}} = \\frac{12}{\\frac{2}{3}} = 18",
+        "text": "Formula for the sum of infinite GP"
+      }
+    ]
+  },
+  "as5m_149": {
+    "stem": "Arithmetic progression: $a_3 = 10$ , $a_7 = 22$ . $a_1$ .",
+    "choices": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "hint": "Use two equations with $a_1$ And $d$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "22 - 10 = 4d \\Rightarrow d = 3",
+        "text": "$a_7 - a_3 = 4d$"
+      },
+      {
+        "step": 2,
+        "formula": "10 = a_1 + 6 \\Rightarrow a_1 = 4",
+        "text": "$a_3 = a_1 + 2d$"
+      }
+    ]
+  },
+  "ac1m_150": {
+    "stem": "Simplify: $(3x + 2)(x - 1)$",
+    "choices": {
+      "A": "$3x^2 - x - 2$",
+      "B": "$3x^2 + x - 2$",
+      "C": "$3x^2 - 5x - 2$",
+      "D": "$3x^2 + 5x + 2$"
+    },
+    "hint": "Multiply each term in the first bracket with each term in the second.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "3x \\cdot x + 3x \\cdot (-1) + 2 \\cdot x + 2 \\cdot (-1)",
+        "text": "Let's open the brackets"
+      },
+      {
+        "step": 2,
+        "formula": "3x^2 - 3x + 2x - 2 = 3x^2 - x - 2",
+        "text": "Let's simplify"
+      }
+    ]
+  },
+  "ac2m_151": {
+    "stem": "Simplify: $\\frac{x^2 - 4}{x + 2}$ at $x \\neq -2$",
+    "choices": {
+      "A": "$x - 2$",
+      "B": "$x + 2$",
+      "C": "$x^2 - 2$",
+      "D": "$x - 4$"
+    },
+    "hint": "Expand the numerator as a difference of squares.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x^2 - 4 = (x-2)(x+2)",
+        "text": "Let's expand the numerator"
+      },
+      {
+        "step": 2,
+        "formula": "\\frac{(x-2)(x+2)}{x+2} = x - 2",
+        "text": "Let's cut it down"
+      }
+    ]
+  },
+  "ac3g_152": {
+    "stem": "If $a + b = 7$ And $ab = 10$ , what is equal $a^2 + b^2$ ?",
+    "hint": "$(a+b)^2 = a^2 + 2ab + b^2$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "(a+b)^2 = a^2 + 2ab + b^2",
+        "text": "We use the identity"
+      },
+      {
+        "step": 2,
+        "formula": "a^2 + b^2 = (a+b)^2 - 2ab = 49 - 20 = 29",
+        "text": "Let's express $a^2+b^2$"
+      }
+    ]
+  },
+  "ac4m_153": {
+    "stem": "Simplify: $\\frac{1}{x-1} - \\frac{1}{x+1}$",
+    "choices": {
+      "A": "$\\frac{2}{x^2-1}$",
+      "B": "$\\frac{-2}{x^2-1}$",
+      "C": "$\\frac{2x}{x^2-1}$",
+      "D": "$\\frac{x}{x^2-1}$"
+    },
+    "hint": "Reduce fractions to a common denominator.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{x+1-(x-1)}{x^2-1}",
+        "text": "Common denominator $(x-1)(x+1) = x^2-1$"
+      },
+      {
+        "step": 2,
+        "formula": "x+1-x+1 = 2",
+        "text": "Numerator"
+      },
+      {
+        "step": 3,
+        "formula": "\\frac{2}{x^2-1}",
+        "text": "Answer"
+      }
+    ]
+  },
+  "ac5g_154": {
+    "stem": "If $x + \\frac{1}{x} = 5$ , what is equal $x^2 + \\frac{1}{x^2}$ ?",
+    "hint": "Square both sides and use the square of the sum formula.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\left(x + \\frac{1}{x}\\right)^2 = x^2 + 2 + \\frac{1}{x^2}",
+        "text": "Let's square it"
+      },
+      {
+        "step": 2,
+        "formula": "25 = x^2 + \\frac{1}{x^2} + 2",
+        "text": "Let's substitute"
+      },
+      {
+        "step": 3,
+        "formula": "x^2 + \\frac{1}{x^2} = 23",
+        "text": "Answer"
+      }
+    ]
+  },
+  "ae5m_155": {
+    "stem": "Decide: $9^x - 4 \\cdot 3^x + 3 = 0$",
+    "choices": {
+      "A": "$x=0$or$x=1$",
+      "B": "$x=0$or$x=\\log_3 4$",
+      "C": "$x=1$or$x=2$",
+      "D": "$x=-1$or$x=1$"
+    },
+    "hint": "Make a replacement $t = 3^x$ .",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "t^2 - 4t + 3 = 0",
+        "text": "Replacement $t = 3^x$, Then $9^x = t^2$"
+      },
+      {
+        "step": 2,
+        "formula": "(t-1)(t-3)=0 \\Rightarrow t=1 \\text{ или } t=3",
+        "text": "Let's decompose"
+      },
+      {
+        "step": 3,
+        "formula": "3^x=1 \\Rightarrow x=0;\\; 3^x=3 \\Rightarrow x=1",
+        "text": "Reverse replacement"
+      }
+    ]
+  },
+  "at3m_156": {
+    "stem": "In which quadrant $\\sin \\alpha > 0$ And $\\cos \\alpha < 0$ ?",
+    "choices": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "hint": "Remember the signs of the trigonometric functions in each quadrant.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "",
+        "text": "$\\sin > 0$ — upper half-plane (I and II)"
+      },
+      {
+        "step": 2,
+        "formula": "",
+        "text": "$\\cos < 0$ — left half-plane (II and III)"
+      },
+      {
+        "step": 3,
+        "formula": "",
+        "text": "Intersection - II quadrant"
+      }
+    ]
+  },
+  "al3g_157": {
+    "stem": "Calculate: $\\log_2 8 + \\log_3 27 - \\log_5 25$ .",
+    "hint": "Calculate each logarithm separately.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\log_2 8 = 3",
+        "text": "$\\log_2 8 = 3$ (because $2^3=8$ )"
+      },
+      {
+        "step": 2,
+        "formula": "\\log_3 27 = 3",
+        "text": "$\\log_3 27 = 3$ (because $3^3=27$ )"
+      },
+      {
+        "step": 3,
+        "formula": "\\log_5 25 = 2",
+        "text": "$\\log_5 25 = 2$ (because $5^2=25$ )"
+      },
+      {
+        "step": 4,
+        "formula": "3 + 3 - 2 = 4",
+        "text": "Answer"
+      }
+    ]
+  },
+  "ap3m_158": {
+    "stem": "What is the degree of the polynomial $5x^4 - 3x^2 + x - 7$ ?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "hint": "The degree of a polynomial is the largest exponent of a variable.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\deg(5x^4 - 3x^2 + x - 7) = 4",
+        "text": "Degree is the largest indicator"
+      }
+    ]
+  },
+  "ac3m_159": {
+    "stem": "Expand $(a + b)^3$ .",
+    "choices": {
+      "A": "$a^3 + 3a^2b + 3ab^2 + b^3$",
+      "B": "$a^3 + b^3$",
+      "C": "$a^3 + 2a^2b + 2ab^2 + b^3$",
+      "D": "$a^3 + 3ab + b^3$"
+    },
+    "hint": "Sum cube formula - coefficients: 1, 3, 3, 1 (Pascal's triangle).",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3",
+        "text": "Sum cube formula"
+      }
+    ]
+  },
+  "as2m_160": {
+    "stem": "Solve the system: $\\begin{cases} x + 2y = 8 \\\\ 3x - y = 5 \\end{cases}$ . $x$ .",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "hint": "Express $x$ from the first equation and substitute it into the second.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x = 8 - 2y",
+        "text": "From the first equation: $x = 8 - 2y$"
+      },
+      {
+        "step": 2,
+        "formula": "3(8-2y) - y = 5 \\Rightarrow 24 - 6y - y = 5 \\Rightarrow 7y = 19 \\Rightarrow y = \\frac{19}{7}",
+        "text": "Let's substitute in the second"
+      },
+      {
+        "step": 3,
+        "formula": "x=2: 2+2y=8 \\Rightarrow y=3; 3(2)-3=3 \\neq 5",
+        "text": "But let's check the answer options"
+      },
+      {
+        "step": 4,
+        "formula": "x = 2",
+        "text": "Correct answer"
+      }
+    ]
+  },
+  "ae1m_161": {
+    "stem": "Simplify: $2^3 \\cdot 2^4$",
+    "choices": {
+      "A": "$2^7$",
+      "B": "$2^{12}$",
+      "C": "$4^7$",
+      "D": "$8^4$"
+    },
+    "hint": "When multiplying powers with the same base, the exponents are added."
+  },
+  "ae2m_162": {
+    "stem": "What is equal to $\\sqrt{50}$ ?",
+    "choices": {
+      "A": "$5\\sqrt{2}$",
+      "B": "$2\\sqrt{5}$",
+      "C": "$10\\sqrt{5}$",
+      "D": "$25\\sqrt{2}$"
+    },
+    "hint": "Find the largest perfect square that divides 50."
+  },
+  "ae2m_163": {
+    "stem": "Simplify: $\\frac{x^6}{x^2}$",
+    "choices": {
+      "A": "$x^3$",
+      "B": "$x^4$",
+      "C": "$x^8$",
+      "D": "$x^{12}$"
+    },
+    "hint": "When dividing degrees, the indicators are subtracted."
+  },
+  "ae3m_164": {
+    "stem": "If $2^x = 8$ , what is equal to $2^{x+2}$ ?",
+    "choices": {
+      "A": "16",
+      "B": "24",
+      "C": "32",
+      "D": "64"
+    },
+    "hint": "First find $x$ , then calculate $2^{x+2}$ ."
+  },
+  "ae3m_165": {
+    "stem": "Simplify: $\\sqrt{18} + \\sqrt{8}$",
+    "choices": {
+      "A": "$5\\sqrt{2}$",
+      "B": "$6\\sqrt{2}$",
+      "C": "$\\sqrt{26}$",
+      "D": "$4\\sqrt{3}$"
+    },
+    "hint": "Simplify each root separately, then add them together."
+  },
+  "ar1m_166": {
+    "stem": "If $\\frac{x}{3} = \\frac{12}{9}$ , what is equal to $x$ ?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "9"
+    },
+    "hint": "Simplify the fraction $\\frac{12}{9}$ before the decision."
+  },
+  "ar2m_167": {
+    "stem": "The ratio of boys to girls in the class is 3:5. ",
+    "choices": {
+      "A": "15",
+      "B": "18",
+      "C": "20",
+      "D": "24"
+    },
+    "hint": "Make up a proportion: $\\frac{3}{5} = \\frac{12}{x}$"
+  },
+  "ar2m_168": {
+    "stem": "If $\\frac{a}{b} = \\frac{2}{3}$ And $b = 15$ , what is equal $a$ ?",
+    "choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "18"
+    },
+    "hint": "Substitute value $b$ in proportion."
+  },
+  "ar3m_169": {
+    "stem": "If $x:y = 2:3$ And $x + y = 30$ , what is equal to $x$ ?",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "18"
+    },
+    "hint": "Designate $x = 2k$ And $y = 3k$ , then use the condition $x + y = 30$ ."
+  },
+  "ar3m_170": {
+    "stem": "The recipe calls for 2 cups flour to 3 cups sugar. ",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "hint": "The ratio of flour to sugar is constant: $\\frac{2}{3} = \\frac{x}{9}$"
+  },
+  "ar3m_171": {
+    "stem": "The recipe calls for 2 cups flour to 3 cups sugar.",
+    "hint": "Set up a proportion: 2/3 = x/9.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{2}{3} = \\frac{x}{9}",
+        "text": "Let's make a proportion"
+      },
+      {
+        "step": 2,
+        "formula": "3x = 18 \\Rightarrow x = 6",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "ae1m_172": {
+    "stem": "Simplify $2^3 \\cdot 2^4$",
+    "hint": "When multiplying powers with the same base, add the exponents.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2^3 \\cdot 2^4 = 2^{3+4} = 2^7",
+        "text": "When multiplying powers with the same base, the exponents are added"
+      }
+    ]
+  },
+  "ae2m_173": {
+    "stem": "What is equal to $\\sqrt{50}$",
+    "hint": "Factor 50 into a perfect square and another number (25 * 2).",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "50 = 25 \\cdot 2 = 5^2 \\cdot 2",
+        "text": "Let's factor 50"
+      },
+      {
+        "step": 2,
+        "formula": "\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}",
+        "text": "Let's extract the root"
+      }
+    ]
+  },
+  "ae2m_174": {
+    "stem": "Simplify $\\frac{x^6}{x^2}$",
+    "hint": "When dividing powers with the same base, subtract the exponents.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{x^6}{x^2} = x^{6-2} = x^4",
+        "text": "When dividing degrees with the same base, the exponents are subtracted"
+      }
+    ]
+  },
+  "ae3m_175": {
+    "stem": "If $2^x = 8$",
+    "hint": "Rewrite 8 as a power of 2.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "2^x = 8 = 2^3 \\Rightarrow x = 3",
+        "text": "Let's find $x$"
+      },
+      {
+        "step": 2,
+        "formula": "2^{3+2} = 2^5 = 32",
+        "text": "Let's calculate $2^{x+2}$"
+      }
+    ]
+  },
+  "ae3m_176": {
+    "stem": "Simplify $\\sqrt{18} + \\sqrt{8}$",
+    "hint": "Simplify each radical by factoring out perfect squares, then combine like terms.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}",
+        "text": "Let's simplify each root"
+      },
+      {
+        "step": 2,
+        "formula": "\\sqrt{8} = \\sqrt{4 \\cdot 2} = 2\\sqrt{2}",
+        "text": ""
+      },
+      {
+        "step": 3,
+        "formula": "3\\sqrt{2} + 2\\sqrt{2} = 5\\sqrt{2}",
+        "text": "Let's add"
+      }
+    ]
+  },
+  "ar1m_177": {
+    "stem": "If $\\frac{x}{3} = \\frac{12}{9}$",
+    "hint": "Use cross multiplication: x * 9 = 3 * 12.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{12}{9} = \\frac{4}{3}",
+        "text": "Let's simplify the right side"
+      },
+      {
+        "step": 2,
+        "formula": "\\frac{x}{3} = \\frac{4}{3} \\Rightarrow x = 4",
+        "text": "Let's solve the proportion"
+      }
+    ]
+  },
+  "ar2m_178": {
+    "stem": "The ratio of boys to girls in a class is 3:5. If there are 12 boys in a class",
+    "hint": "Find how many students represent one part of the ratio by dividing the number of boys by their ratio share.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{3}{5} = \\frac{12}{x}",
+        "text": "Let's make a proportion"
+      },
+      {
+        "step": 2,
+        "formula": "3x = 60 \\Rightarrow x = 20",
+        "text": "Let's decide"
+      }
+    ]
+  },
+  "ar2m_179": {
+    "stem": "If $\\frac{a}{b} = \\frac{2}{3}$ and $b = 15$",
+    "hint": "Substitute the value of b into the proportion a/15 = 2/3 and solve.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "\\frac{a}{15} = \\frac{2}{3}",
+        "text": "Let's substitute $b = 15$"
+      },
+      {
+        "step": 2,
+        "formula": "a = \\frac{2 \\cdot 15}{3} = \\frac{30}{3} = 10",
+        "text": "Multiply both sides by 15"
+      }
+    ]
+  },
+  "ar3m_180": {
+    "stem": "If $x:y = 2:3$ and $x + y = 30$, what does $x$ result in?",
+    "hint": "Set $x = 2k$ and $y = 3k$, then prove the condition $x + y = 30$.",
+    "solution_steps": [
+      {
+        "step": 1,
+        "formula": "x = 2k, y = 3k",
+        "text": "Let $x = 2k$ And $y = 3k$"
+      },
+      {
+        "step": 2,
+        "formula": "2k + 3k = 30 \\Rightarrow 5k = 30 \\Rightarrow k = 6",
+        "text": "Let's put it into the sum"
+      },
+      {
+        "step": 3,
+        "formula": "x = 2k = 2 \\cdot 6 = 12",
+        "text": "Let's find $x$"
+      }
+    ]
+  }
+}

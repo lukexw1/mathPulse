@@ -1,0 +1,85 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+
+# Node
+node_modules/
+.opencode/node_modules/
+
+# Vite / Frontend build
+frontend/dist/
+frontend/.vite/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Supabase local config
+.supabase/
+
+/.agents
+/.claude
+/.git
+/.kiro
+/.opencode
+/.env.example
+/.agents
+/.claude
+/.kiro
+/.opencode
+
+# Root-level temporary/duplicate files
+/P.tsx
+/ProfilePage.tsx
+/skills-lock.json
+/test_quiz.json
+/write_profile_temp.py
+/SOLUTION_STEPS_I18N.md
+/THEORY_I18N.md
+/THEORY_QUIZ_FIX.md
+
+# Frontend temporary/test files
+/frontend/i18n-README.md
+/frontend/test-i18n.html
+/frontend/test-theory-i18n.html
+/frontend/ts_errors.txt
+
+# Scripts test file
+/scripts/test.py
+
+# Internal documentation
+/tasks/
+/docs/superpowers/
+/bot/
+/supabase/ 
+/scripts/
+/prd/
+/AGENTS.md
