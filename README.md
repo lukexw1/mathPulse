@@ -1,15 +1,15 @@
 # 🧠 MathPulse — SAT Math Prep. Telegram Mini App
 
-> **An interactive platform for SAT Math preparation.**  
-> Boosts student scores through adaptive learning, gamification, and spaced repetition — all inside Telegram.
+![Dashboard](assets/MainMenu.png)
+
+ **An interactive platform for SAT Math preparation.**  
+ Boosts student scores through adaptive learning, gamification, and spaced repetition — all inside Telegram.
 
 ---
 
 ## 🌐 Live Demo
 
 **[@mathpulse_bot](https://t.me/mathPulse_bot/MathPulse)** — open the bot and tap *"Launch"*.
-
-> *Your demo link:* `https://t.me/mathPulse_bot/MathPulse`
 
 ---
 
@@ -75,7 +75,7 @@ mathPulse/
 │   │   ├── components/   # UI components (TabBar, QuestionCard, ProgressBar…)
 │   │   ├── pages/        # Home, Practice, Theory, Calculator, Profile, Onboarding
 │   │   ├── stores/       # Zustand stores: auth, dashboard, practice, theory, profile
-│   │   ├── locales/      # i18n: en, ru, uz
+│   │   ├── locales/      # i18n: en, ru
 │   │   └── functions/    # Typed API client
 │   └── public/
 └── theory/               # Theory articles with LaTeX
@@ -85,7 +85,7 @@ mathPulse/
 
 ## 📊 Target Audience
 
-- **Students 16–18** — preparing for SAT, WIUT, or local math exams
+- **Students 16–18** — preparing for SAT, or local math exams
 - **Tutors** — track student progress with detailed analytics
 - **EdTech startups** — ready-to-launch educational Telegram Mini App
 
@@ -99,7 +99,3 @@ Reach out on Telegram: **[@lukexwd](https://t.me/lukexwd)**
 [![Telegram](https://img.shields.io/badge/Telegram-@lukexwd-26A5E4?logo=telegram&logoColor=white)](https://t.me/lukexwd)
 
 ---
-
-<p align="center">
-  <sub>Built with React, FastAPI & ❤️ — SAT Math, accelerated.</sub>
-</p>
