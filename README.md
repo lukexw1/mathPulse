@@ -2,9 +2,6 @@
 
 ![Dashboard](assets/MainMenu.png)
 
- **An interactive platform for SAT Math preparation.**  
- Boosts student scores through adaptive learning, gamification, and spaced repetition — all inside Telegram.
-
 ---
 
 ## 🌐 Live Demo
